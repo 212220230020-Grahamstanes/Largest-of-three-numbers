@@ -1,4 +1,7 @@
-# Largest-of-three-numbers
+### EX NO : 01
+### DATE  : 30.03.2022
+# <p align="center"> Largest-of-three-numbers </p>
+
 ## Aim:
 To write a C# program to find the largest of three numbers
 
@@ -16,17 +19,19 @@ Use else condition to display that third variable is largest among all the varia
 ### Step6:
 stop
 
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
 ## Program:
-```
+```c#
 using System;
-namespace largest
+namespace project
 {
     class program
     {
             static void Main(string[] args)
             {
                 int num1, num2, num3;
-                Console.WriteLine("Enter Three integer: ");
+                Console.WriteLine("Enter Three integer");
                 num1 = Convert.ToInt32(Console.ReadLine());
                 num2 = Convert.ToInt32(Console.ReadLine());
                 num3 = Convert.ToInt32(Console.ReadLine());
@@ -41,7 +46,9 @@ namespace largest
 }
 ```
 ## Output:
-![Screenshot (10)](https://user-images.githubusercontent.com/75235150/165556637-6da933fb-f99f-4622-9d5c-f32d80a8c8a4.png)
+
+![image](https://user-images.githubusercontent.com/75235488/175523431-25db7022-0f9f-401a-b1aa-0dff17150be6.png)
+
 
 ## Result:
 Thus the C# program to find the largest of three numbers is executed successfully
